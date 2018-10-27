@@ -8,10 +8,10 @@ def line(katz_deli)
     current_customer = 0
     line_order = ""
     while current_customer < line_size
-      line_order << "#{current_customer+1}. #{katz_deli[current_customer]} "
+      line_order << " #{current_customer+1}. #{katz_deli[current_customer]}"
       current_customer += 1
     end
-    puts "The line is currently: #{line_order}"
+    puts "The line is currently:#{line_order}"
   end
 end
 
