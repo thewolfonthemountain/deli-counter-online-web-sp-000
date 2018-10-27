@@ -23,6 +23,6 @@ end
 def now_serving(katz_deli)
   if katz_deli = [] then puts "There is nobody waiting to be served!"
     else serving = katz_deli.shift
-         puts "Currently serving #{serving}."
+    puts "Currently serving #{serving}."
   end
 end
