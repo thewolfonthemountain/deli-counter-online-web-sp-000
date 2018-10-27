@@ -11,7 +11,7 @@ def line(katz_deli)
       line_order << "#{current_customer+1}. #{katz_deli[current_customer]}"
       current_customer += 1
     end
-    return "The line is currently: #{line_order}"
+    puts "The line is currently: #{line_order}"
   end
 end
 
