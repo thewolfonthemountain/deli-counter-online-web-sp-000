@@ -2,7 +2,7 @@
 katz_deli = []
 
 def line(katz_deli)
-  if katz_deli = [] then puts "The line is currently empty."
+  if katz_deli == [] then puts "The line is currently empty."
   else
     line_size = katz_deli.size
     current_customer = 0
