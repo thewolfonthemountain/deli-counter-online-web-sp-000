@@ -7,7 +7,7 @@ def line(katz_deli)
     line_size = katz_deli.size
     current_customer = 0
     line_order = ""
-    while current_customer < line_size do
+    while current_customer < line_size
       line_order << "#{current_customer+1}. #{katz_deli[current_customer]}"
     end
     return "The line is currently: #{line_order}"
